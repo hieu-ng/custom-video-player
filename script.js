@@ -12,3 +12,23 @@ video.addEventListener('timeupdate', updateProgress);
 play.addEventListener('click', toggleVideoStatus);
 stop.addEventListener('click', stopVideo);
 progress.addEventListener('change', setVideoProgress);
+
+function toggleVideoStatus() {
+	return true;
+}
+
+function updatePlayIcon() {
+	return true;
+}
+
+function updateProgress() {
+	return true;
+}
+
+function setVideoProgress() {
+	return true;
+}
+
+function stopVideo() {
+	return true;
+}
