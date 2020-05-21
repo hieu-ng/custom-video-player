@@ -30,11 +30,11 @@ function updatePlayIcon() {
 }
 
 function updateProgress() {
-	return true;
+	progress.value = (video.currentTime / video.duration) * 100;
 }
 
 function setVideoProgress() {
-	return true;
+	video.currentTime = parseInt(progress.value) * video.duration * 100;
 }
 
 function stopVideo() {
